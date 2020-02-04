@@ -1,104 +1,6 @@
-<!DOCTYPE html>
-<html lang="lv-LV">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+{% extends 'base.html.twig' %}
 
-    <title>{% block title %}Deju Gurū{% endblock %}</title>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <link rel="icon" href="{{ asset('images/logo.png') }}">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="{{ asset ('css/style.css') }}">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
-<body>
-
-<!----------- Navbar section ----------->
-
-<nav class="fade-in-navbar navbar navbar-white-text navbar-expand-xxl fixed-top">
-
-    <!----------- Navbar - Logo ----------->
-    <a class="navbar-brand">
-        <!-- Logo Image -->
-        <img src="{{ asset('images/logo.png') }}" style="width: 60px;" alt="Logo" class="d-inline-block align-middle mr-2">
-        <!-- Logo Text -->
-        <span class="font-weight-bold" style="color: white">Deju gurū</span>
-    </a>
-
-    <!----------- Menu button ----------->
-    <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#collapse_target">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="collapse_target">
-        <ul class="navbar-nav mx-auto justify-content-center">
-
-            <!----------- Sākums ----------->
-            <li class="nav-item">
-                <a class="nav-link" href="/">Sākums</a>
-            </li>
-
-            <!----------- Vēsture ----------->
-            <li class="nav-item">
-                <a class="nav-link" href="#">Vēsture</a>
-            </li>
-
-            <!----------- Deju veidi ----------->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
-                    Deju veidi
-                    <span class="caret"></span>
-                </a>
-
-                <!----------- Apakš izvēlnes priekš deju veidiem ----------->
-                <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                    <ul class="navbar-nav">
-                        <a class="dropdown-item">Tradicionālās dejas</a>
-                        <a class="dropdown-item">Brīvā stila</a>
-                        <a class="dropdown-item">Ielu dejas</a>
-                        <a class="dropdown-item">Elektroniskās mūzikas dejas</a>
-                        <a class="dropdown-item">Vēsturiskās dejas</a>
-                        <a class="dropdown-item">Latīņamerikas dejas</a>
-                        <a class="dropdown-item">Swinga dejas</a>
-                    </ul>
-                </div>
-
-                <!----------- Galerija ----------->
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
-                    Galerija
-                    <span class="caret"></span>
-                </a>
-
-                <!----------- Apakš izvēlnes priekš galerijas ----------->
-                <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                    <ul class="navbar-nav">
-                        <a class="dropdown-item">Foto</a>
-                        <a class="dropdown-item">Video</a>
-                    </ul>
-                </div>
-            </li>
-
-            <!----------- Par mani ----------->
-            <li class="nav-item">
-                <a class="nav-link" href="#">Par mani</a>
-            </li>
-
-            <!----------- Kontakti ----------->
-            <li class="nav-item">
-                <a class="nav-link" href="#">Kontakti</a>
-            </li>
-
-        </ul>
-    </div>
-</nav>
+{% block body %}
 
 <!-- Text with image in center -->
 <section class="fade-in-navbar custom-jumbotron site-blocks-cover overflow-hidden bg-light" style="background: linear-gradient(#06beb6, #48b1bf) !important">
@@ -249,10 +151,11 @@
     </div>
 </footer>
 
-<!-- Scripts -->
-<script type="text/javascript" src="{{ asset('js/navbar_scrollColor.js') }}"></script>
-<script type="text/javascript" src="{{ asset('/js/navbar_scrollText.js') }}"></script>
-<script type="text/javascript" src="{{ asset('/js/scroll_fade_inOut.js') }}"></script>
+{% endblock %}
 
-</body>
-</html>
+{% block javascripts %}
+    <!-- Scripts -->
+    <script type="text/javascript" src="{{ asset('js/navbar_scrollColor.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/navbar_scrollText.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/scroll_fade_inOut.js') }}"></script>
+{% endblock %}

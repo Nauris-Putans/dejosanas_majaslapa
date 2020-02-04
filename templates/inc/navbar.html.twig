@@ -1,0 +1,80 @@
+<!----------- Navbar section ----------->
+
+<nav class="fade-in-navbar navbar navbar-white-text navbar-expand-xxl fixed-top">
+
+    <!----------- Navbar - Logo ----------->
+    <a class="navbar-brand">
+        <!-- Logo Image -->
+        <img src="{{ asset('images/logo.png') }}" style="width: 60px;" alt="Logo" class="d-inline-block align-middle mr-2">
+        <!-- Logo Text -->
+        <span class="font-weight-bold" style="color: white">Deju gurū</span>
+    </a>
+
+    <!----------- Menu button ----------->
+    <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#collapse_target">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapse_target">
+        <ul class="navbar-nav mx-auto justify-content-center">
+
+            <!----------- Sākums ----------->
+            <li class="nav-item">
+                <a class="nav-link" href="/">Sākums</a>
+            </li>
+
+            <!----------- Vēsture ----------->
+            <li class="nav-item">
+                <a class="nav-link" href="#">Vēsture</a>
+            </li>
+
+            <!----------- Deju veidi ----------->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+                    Deju veidi
+                    <span class="caret"></span>
+                </a>
+
+                <!----------- Apakš izvēlnes priekš deju veidiem ----------->
+                <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                    <ul class="navbar-nav">
+                        <a class="dropdown-item">Tradicionālās dejas</a>
+                        <a class="dropdown-item">Brīvā stila</a>
+                        <a class="dropdown-item">Ielu dejas</a>
+                        <a class="dropdown-item">Elektroniskās mūzikas dejas</a>
+                        <a class="dropdown-item">Vēsturiskās dejas</a>
+                        <a class="dropdown-item">Latīņamerikas dejas</a>
+                        <a class="dropdown-item">Swinga dejas</a>
+                    </ul>
+                </div>
+
+                <!----------- Galerija ----------->
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+                    Galerija
+                    <span class="caret"></span>
+                </a>
+
+                <!----------- Apakš izvēlnes priekš galerijas ----------->
+                <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                    <ul class="navbar-nav">
+                        <a class="dropdown-item">Foto</a>
+                        <a class="dropdown-item">Video</a>
+                    </ul>
+                </div>
+            </li>
+
+            <!----------- Par mani ----------->
+            <li class="nav-item">
+                <a class="nav-link" href="#">Par mani</a>
+            </li>
+
+            <!----------- Kontakti ----------->
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kontakti</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
