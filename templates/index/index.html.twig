@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="lv-LV">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>{% block title %}Deju Gurū{% endblock %}</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="{{ asset('images/logo.png') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="{{ asset ('css/style.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<!----------- Navbar section ----------->
+
+<nav class="fade-in-navbar navbar navbar-white-text navbar-expand-xxl fixed-top">
+
+    <!----------- Navbar - Logo ----------->
+    <a class="navbar-brand">
+        <!-- Logo Image -->
+        <img src="{{ asset('images/logo.png') }}" style="width: 60px;" alt="Logo" class="d-inline-block align-middle mr-2">
+        <!-- Logo Text -->
+        <span class="font-weight-bold" style="color: white">Deju gurū</span>
+    </a>
+
+    <!----------- Menu button ----------->
+    <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#collapse_target">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapse_target">
+        <ul class="navbar-nav mx-auto justify-content-center">
+
+            <!----------- Sākums ----------->
+            <li class="nav-item">
+                <a class="nav-link" href="/">Sākums</a>
+            </li>
+
+            <!----------- Vēsture ----------->
+            <li class="nav-item">
+                <a class="nav-link" href="#">Vēsture</a>
+            </li>
+
+            <!----------- Deju veidi ----------->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+                    Deju veidi
+                    <span class="caret"></span>
+                </a>
+
+                <!----------- Apakš izvēlnes priekš deju veidiem ----------->
+                <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                    <ul class="navbar-nav">
+                        <a class="dropdown-item">Tradicionālās dejas</a>
+                        <a class="dropdown-item">Brīvā stila</a>
+                        <a class="dropdown-item">Ielu dejas</a>
+                        <a class="dropdown-item">Elektroniskās mūzikas dejas</a>
+                        <a class="dropdown-item">Vēsturiskās dejas</a>
+                        <a class="dropdown-item">Latīņamerikas dejas</a>
+                        <a class="dropdown-item">Swinga dejas</a>
+                    </ul>
+                </div>
+
+                <!----------- Galerija ----------->
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+                    Galerija
+                    <span class="caret"></span>
+                </a>
+
+                <!----------- Apakš izvēlnes priekš galerijas ----------->
+                <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                    <ul class="navbar-nav">
+                        <a class="dropdown-item">Foto</a>
+                        <a class="dropdown-item">Video</a>
+                    </ul>
+                </div>
+            </li>
+
+            <!----------- Par mani ----------->
+            <li class="nav-item">
+                <a class="nav-link" href="#">Par mani</a>
+            </li>
+
+            <!----------- Kontakti ----------->
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kontakti</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+<!-- Text with image in center -->
+<section class="fade-in-navbar custom-jumbotron site-blocks-cover overflow-hidden bg-light" style="background: linear-gradient(#06beb6, #48b1bf) !important">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 align-self-center text-center text-md-left">
+                <div class="intro-text">
+                    <h1 class="display-center-text">Deju gurū</h1>
+                    <p class="lead">Dejošana ir vairāk kā hobijs, tas ir dzīves veids</p>
+                </div>
+            </div>
+            <div class="col-md-5 align-self-end text-center text-md-right">
+                <img src="{{ asset('images/boy_dance.png') }}" alt="Image" class="img-fluid cover-img">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Definition of "Deja" -->
+<div class="fade-in-navbar hero-image">
+    <div class="fade-in hero-text">
+        <h1>Deja</h1>
+        <p>Mākslas veids, cilvēka pašizpausmes, komunikācijas un pasaules izziņas forma, kurā izmanto ritmiskas,
+            strukturētas vai improvizētas ķermeņa kustības noteiktā laika un telpas rāmī
+        </p>
+    </div>
+</div>
+
+<!-- Section - Dejas definīciju dažādība -->
+<section class="Dejas-definicijas-dazadiba">
+    <div class="box">
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="align-self-center text-center text-md-center">
+                        <p class="fade-in oblique-text">Dejas definīciju dažādību veidojuši sociālie, kultūras, estētiskie un morālie apstākļi un apsvērumi.
+                            Piemēram, deja var būt funkcionāla kustība kā tautas deja, etnogrāfiskā deja u. c., vai noteiktas
+                            sistēmas ietekmē veidojusies virtuoza tehnika – balets, sporta deja, modernā deja un show deja,
+                            stepa deja un disko deja, hiphops, breiks u. c. Sportā par dejas disciplīnām uzskata mākslas vingrošanu,
+                            daiļslidošanu, līnijdejas, sinhrono peldēšanu, arī ratiņkrēslu dejas, kuru dalībnieki kopš 1989. gada
+                            piedalās standarta un Latīņamerikas deju pasaules un Eiropas čempionātos.</p>
+
+                        <p class="fade-in oblique-text">Dejām tiek pielīdzinātas arī cīņu mākslas kata un kapoeira. Medicīnā deju un kustību terapija (DKT)
+                            tiek uzskatīta par mākslas terapijas veidu, kas izmanto deju un kustību, lai uzlabotu fizisko, emocionālo, kognitīvo
+                            (uztvere, atmiņa, domāšana u. c.) un sociālo veselību. Ar vārdu “deja” apzīmē arī konkrētas mūzikas formas vai
+                            žanrus – polku, galopu, gavoti, polonēzi, valsi, dejas svītu, baletu u. c. Īpaša nozīme dejas mākslā ir arī
+                            dramaturģijai, scenogrāfijai, kostīmu mākslai, gaismu dizainam. Deja var būt svarīga operas, dramatiskā teātra, operetes,
+                            mūzikla sastāvdaļa. Piemēram, franču komponista Šarla Guno (Charles Gounod) opera "Fausts” (Faust, pirmizrāde 1859. gadā),
+                            kuru papildina baleta aina “Valpurģu nakts” (Nuit de Walpurgis) utt.</p><div class="fade-in section-divider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="image-gallery">
+    <div class="row">
+        <div class="fade-in column">
+            <div class="container">
+                <img class="image" src="{{ asset('images/Tautiskas_dejas.jpg') }}" alt="Tautiskas dejas">
+                <div class="overlay">
+                    <div class="centered">Tautiskas dejas</div>
+                </div>
+            </div>
+        </div>
+        <div class="fade-in column">
+            <div class="container">
+                <img class="image" src="{{ asset('images/Tradicionalas_dejas/tap-dance.jpg') }}" alt="Stepa dejas">
+                <div class="overlay">
+                    <div class="centered">Stepa dejas</div>
+                </div>
+            </div>
+        </div>
+        <div class="fade-in column">
+            <div class="container">
+                <img class="image" src="{{ asset('images/Break_dance.jpg') }}" alt="Breika dejas">
+                <div class="overlay">
+                    <div class="centered">Breika dejas</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Section - Kāpēc mēs dejojam? -->
+<section class="info-text">
+    <div class="box">
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="">
+                        <h1 class="fade-in align-self-center text-center text-md-center">Kāpēc mēs dejojam?</h1><hr class="fade-in">
+                        <p class="fade-in text-center text-question">"Mēs taču visi zinām, kas ir dejošana un kad redzam kādu kustamies mūzikas ritmā uzreiz varam saprast,
+                            ka viņš dejo. <strong>Bet kas tad īsti ir dejošana un kāpēc mēs vispār dejojam?"</strong></p><br>
+
+                        <p class="fade-in">Dejošana jau no seniem laikiem ir bijis veids, kā socializēties, sadraudzēties un piesaistīt savas otrās pusītes
+                            uzmanību. Lai gan cik banāli tas neizklausītos, bet dejošana tiek izmantota, lai piesaistītu pretējo dzimumu
+                            tieši tāpat, kā tiek izmantota nauda vai skaists augums un tie cilvēki, kas prot dejot ar šīm prasmēm parāda
+                            saviem skatītājiem, ka viņiem ir labi gēni un viņi prot valdīt pār savu ķermeni. Ja mēs salīdzinātu divus
+                            cilvēkus, vienu, kurš māk dejot un otru, kurš to neprot, tad uzreiz liktos, ka tas kurš prot dejot ir
+                            ekstraverts, viņš prot labi komunicēt un viņš ir daudz aktīvāks un jautrāks, bet tas, kurš neprot dejot
+                            liksies mazliet dīvains, kluss un sociāli neaktīvs. Ja tu esi iemācījies dejot, tas nozīmē, ka tu proti
+                            valdīt pār savu ķermeni un tas arī parāda pretējā dzimuma pārstāvjiem to, ka tev ir koordinācija, nav
+                            nekādas slimības un tātad tas liek viņiem zemapziņā saprast, ka tavi gēni būs pietiekoši labi, lai ar
+                            tevi varētu reproducēties.</p>
+
+                        <p class="fade-in">Bet dejošana noteikti nav tikai domāta tāpēc, lai piesaistītu savu otro pusīti, un nereti mēs mūzikas ritmā
+                            dejojam arī vienatnē, kad neviens neskatās. Lai saprastu, kāpēc mēs tā darām sākumā ir jāapskata tas, kāpēc
+                            tad mums patīk mūzika. Mūzika dod mums labas emocijas, tā uzmundrina mūs un stimulē mūsu smadzenes, nu tad
+                            lūk arī dejošana var stimulēt tieši tās pašas smadzeņu daļas, ko mūzika un ja abas lietas tiek darītas kopā,
+                            tad ir iesējams panākt dubultu efektu. Dejojot mēs atbrīvojamies, mazinās stress un kopumā uzlabojas
+                            garastāvoklis, jo mēs atbrīvojamies un ļaujamies mūzikas ritmam, kas ir ļoti nepieciešams mūsdienu
+                            saspringtajā dzīves ritmā. Nav nozīmes, kādu deju žanru tu izmanto, sākot no <strong>breikošanas</strong> un
+                            beidzot ar <strong>baletu</strong>, visi šie deju veidi padara tevi priecīgāku un dod tev laimes sajūtu.</p>
+
+                        <p class="fade-in inspiration-text box-color"><strong>"Deja – lielisks veids kā aizmirsties no ikdienas un gūt pozitīvas emocijas."</strong></p>
+
+                        <p class="fade-in">Dejošanai ir vēl viens aspekts, ko mēs neapskatījām un tas ir tāds, <u>ka skatītājam, kas vēro dejotāju bieži
+                                vien gribās viņam pievienoties</u> un veikt tieši tās pašas kustības tādā veidā labi pavadot laiku un izveidojot
+                            ne-vārdisku saikni starp tevi un tavu partneri. Redzot dejotājus bieži vien ir redzams, ka dejo pārī sieviete
+                            un vīrietis un tādā veidā tie abi dalās ar šīm emocijām un izprot viens otra kustības, veidojot tandēmu, kas
+                            jau ir sadarbība starp diviem prātiem darot vienu un to pašu darbību.</p>
+
+                        <p class="fade-in">Atbilde uz to, kāpēc mēs dejojam nav viegla un tur ir iesaistīti ļoti daudz aspekti sākot no vienkāršas
+                            garastāvokļa uzlabošanas un atslābināšanās līdz savas otras puses piesaistei, vai vienkārša mūzikas ritma
+                            izjušanai, ļaujoties savam ķermenim kustēties šajā ritmā. Bet viens ir skaidrs – cilvēki ir dejojuši pagātnē,
+                            dejo tagadnē un arī dejos nākotnē, jo šī nodarbe ir teju vai mums iedzimta un pat bērnam izdzirdot mūziku,
+                            kas viņam patīk viņš noteikti kustēsies līdzi mūzikas ritmam, un it sevišķi, ja viņam priekšā to parādīs
+                            viņa vecāki.</p><hr class="fade-in">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p class="title-footer">Dejošana ir vairāk kā hobbijs, tas ir dzīves veids</p>
+        <ul class="list-unstyled social-links">
+            <li><a href="https://www.instagram.com/nawris_p/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.facebook.com/nauris.putans.7"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/Nauris-Putans"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script type="text/javascript" src="{{ asset('js/navbar_scrollColor.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/navbar_scrollText.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/scroll_fade_inOut.js') }}"></script>
+
+</body>
+</html>
