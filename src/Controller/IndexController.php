@@ -18,9 +18,9 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/history")
+     * @Route("/vesture")
      */
-    public function history()
+    public function vesture()
     {
         return $this->render('sections/dance_history.html.twig', [
             'controller_name' => 'IndexController',

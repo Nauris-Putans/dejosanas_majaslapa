@@ -337,6 +337,13 @@ $assetPath : "/images";
   padding: 4em;
 }
 
+.Dejas-attistiba .box {
+  background: rgba(235, 235, 235, 0.5);
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 128px 64px 64px;
+}
+
 
 /* Box */
 
@@ -495,6 +502,10 @@ $assetPath : "/images";
     text-indent: 1.375em;
   }
 
+  p + img + p {
+    text-indent: 1.375em;
+  }
+
   .box {
     padding: 2em 4em 5em 4em;
   }
@@ -553,3 +564,16 @@ $assetPath : "/images";
   color: rgb(102, 102, 102);
 }
 
+
+.image-padding {
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+.Dejas-attistiba {
+  .img-fluid {
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+  }
+}
