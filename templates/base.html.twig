@@ -17,9 +17,12 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
     <body>
-        {{ include('inc/navbar.html.twig') }}
-        {% block body %}{% endblock %}
+        {{ include('inc/navbar.html.twig') }}   {# navigation bar #}
+        {% block body %}{% endblock %}          {# all text and images #}
+        {{ include('inc/footer.html.twig') }}   {# footer #}
 
-        {% block javascripts %}{% endblock %}
+        <script type="text/javascript" src="{{ asset('js/navbar_scrollColor.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('/js/navbar_scrollText.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('/js/scroll_fade_inOut.js') }}"></script>
     </body>
 </html>
