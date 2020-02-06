@@ -26,4 +26,14 @@ class IndexController extends AbstractController
             'controller_name' => 'IndexController',
         ]);
     }
+
+    /**
+     * @Route("/deju_veidi/tradicionalas_dejas")
+     */
+    public function tradicionalas_dejas()
+    {
+        return $this->render('sections/traditional_dances.html.twig', [
+            'controller_name' => 'IndexController',
+        ]);
+    }
 }

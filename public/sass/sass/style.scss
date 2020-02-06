@@ -330,21 +330,6 @@ $assetPath : "/images";
   opacity: 1;
 }
 
-.Dejas-definicijas-dazadiba .box {
-  background: rgba(235, 235, 235, 0.5);
-  border-radius: 4px;
-  overflow: hidden;
-  padding: 4em;
-}
-
-.Dejas-attistiba .box {
-  background: rgba(235, 235, 235, 0.5);
-  border-radius: 4px;
-  overflow: hidden;
-  padding: 128px 64px 64px;
-}
-
-
 /* Box */
 
 .box {
@@ -435,15 +420,18 @@ $assetPath : "/images";
   overflow: hidden;
   padding: 0 4em 4em 4em;
 
-}
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
 
-.image-gallery .container {
-  position: relative;
-  text-align: center;
-  color: white;
+    font-weight: 500;
+    font-size: 50px;
+  }
 
-  font-weight: 500;
-  font-size: 50px;
+  .color-white {
+    color: white;
+  }
 }
 
 .overlay {
@@ -570,10 +558,29 @@ $assetPath : "/images";
   padding-bottom: 32px;
 }
 
-.Dejas-attistiba {
+
+.Dejas-attistiba, .Tradicionalas-dejas {
   .img-fluid {
     max-width: 100%;
     width: 50%;
-    height: auto;
+    height: 12%;
   }
+
+  .box {
+    background: rgba(235, 235, 235, 0.5);
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 128px 64px 64px;
+  }
+}
+
+.Dejas-definicijas-dazadiba .box {
+  background: rgba(235, 235, 235, 0.5);
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 4em;
+}
+
+.text-header-padding {
+  padding-top: 32px;
 }
