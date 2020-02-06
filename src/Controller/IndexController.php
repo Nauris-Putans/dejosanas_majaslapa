@@ -77,4 +77,14 @@ class IndexController extends AbstractController
         ]);
     }
 
+    /**
+     * @Route("/deju_veidi/latinamerikas_dejas")
+     */
+    public function latinamerikas_dejas()
+    {
+        return $this->render('sections/latin_american_dances.html.twig', [
+            'controller_name' => 'IndexController',
+        ]);
+    }
+
 }
