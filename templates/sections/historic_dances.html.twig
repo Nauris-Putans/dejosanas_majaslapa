@@ -1,0 +1,87 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <!-- Section - Vēsturiskās dejas -->
+    <section class="Vesturiskas-dejas">
+        <div class="box">
+            <div class="container">
+                <div class="content">
+                    <div class="row">
+                        <div class="info-text">
+                            <h1 class="fade-in align-self-center text-center text-md-center">Vēsturiskās dejas</h1><hr class="fade-in">
+
+                            <p class="fade-in align-self-center text-center text-md-center">Ietver tautas dejas gan
+                                tādas, kā lauku dejas un arī pus klasiskos deju stilus un baskāju dejas un būtībā ir
+                                visi deju stili, kas ir dažādu valstu tradīcijās un tāpēc arī mūsu dziesmu un deju
+                                svētku tautiskās dejas tiek ietveras pie vēsturiskajām dejām.</p>
+
+                            <!------------ Tautiskās dejas ----------->
+                            <h3 class="fade-in align-self-center text-center text-md-center text-header-padding"
+                                id="stepa-dejas">Tautiskās dejas</h3>
+
+                            <p class="fade-in">Jau izsens latviešu tautai ir bijušas raksturīgas tautiskās dejas. Tās
+                                bija seno latviešu izpausmes un savas kultūras un dzīvesveida piekopšanas veids. Var
+                                teikt, ka tās tika dejotas it visur, kur vien bija iespējams izrādīt savu
+                                dejotprasmi - mājās, svētkos un svinībās, dažādos pasākumos un draugu lokā. Jau kopš
+                                latviešu tautas pirmsākumiem tautiskās dejas bija būtiska latvieša dzīves sastāvdaļa,
+                                kas raksturoja latviešus kā aktīvu, jautru un dzīvespriecīgu tautu, un arī mūsdienās
+                                šīs prasmes mums nav svešas.</p>
+
+                            <p class="fade-in">Svarīgākais ir tas, ka latviešu tautas dejas var dejot ikviens
+                                interesents, kurš vēlas un ir gatavs apgūt jaunas iemaņas un vienkārši labi un jautri
+                                pavadīt laiku. Lai dejotu tautas dejas nav nepieciešamas plašas iemaņas un prasmes,
+                                fiziskā sagatavotība vai iepriekš gūtas zināšanas, tās ir dejas ikkatram un ikvienam,
+                                un tas, manuprāt, ir pats svarīgākais. Turklāt latviešu tautas dejas tiek dejotas
+                                lielākoties pāros - zēns ar meiteni, kas arī ir svarīga latviešu tautas deju iezīme.
+                                Deja pāros kā satuvina cilvēkus, tā arī palīdz vairāk izprast vienam otru, tu vairs
+                                neesi pats par sevi, bet gan esi atbildīgs par cilvēku sev līdzās, par jūsu kopējo
+                                rezultātu.</p>
+
+                            <img class="img-fluid rounded mx-auto d-block image-padding fade-in"
+                                 src="{{ asset('images/Tautiskas_dejas.jpg') }}" alt="Tautiskas dejas">
+
+                            <!------------ Balets ----------->
+                            <h3 class="fade-in align-self-center text-center text-md-center text-header-padding"
+                                id="stepa-dejas">Balets</h3>
+
+                            <p class="fade-in">Viens no galvenajiem izteiksmes veidiem baleta mākslā ir klasiskā
+                                deja – cilvēces daudzu gadsimtu gaitā izveidojusies mākslinieciskās jaunrades izpausme.
+                                Baleta izrāde ir šīs jaunrades augstākā forma.</p>
+
+                            <p class="fade-in">Savā attīstības ceļā klasiskais balets kļuvis par skatuves mākslas veidu,
+                                kurā horeogrāfa idejas atklāsmē līdzvērtīgi darbojas visas klasiskā baleta izrādes
+                                komponentes – mūzika, dramaturģija, scenogrāfija un dejotājs. Mūsdienu balets kā
+                                horeogrāfijas augstākā forma ir muzikāli teatrāls mākslas veids, kas kā inovatīvs
+                                mākslas darbs, atklājot muzikālo dramaturģiju un muzikāli horeogrāfiskos tēlus, ietver
+                                telpiskumu un laiku.</p>
+
+                            <img class="img-fluid rounded mx-auto d-block image-padding fade-in"
+                                 src="{{ asset('images/Vesturiskas_dejas/ballet-dance.jpg') }}" alt="Balets">
+
+                            <!------------ Tautas dejas ----------->
+                            <h3 class="fade-in align-self-center text-center text-md-center text-header-padding"
+                                id="stepa-dejas">Tautas dejas</h3>
+
+                            <p class="fade-in">Tautas dejas ietekmēja to iekļaušanās reliģiskajās (pagānisms, jūdaisms,
+                                kristietība) norisēs, sabiedrības dabiskā evolūcija, sabiedrības slāņu horizontālā
+                                difūzija (ietekme starp dažāda sociālā statusa sabiedrības locekļiem), kā arī
+                                sabiedrības vertikālā difūzija (citu tautu un nāciju ietekme).</p>
+
+                            <p class="fade-in">Tautas dejas norises ir pārmantotas no iepriekšējām paaudzēm. Šo deju
+                                konstrukcija ir vienkārša un pieejama plašām iedzīvotāju grupām, dejas autors ir
+                                nezināms. Tautas deja ir katras nācijas identitātes veidotāja. Līdz pat 20. gs. vidum
+                                jēdzienu “tautas deja” lietoja bez zinātniskas diskusijas par tā saturu. Tautas dejas
+                                izpēte sākās līdz ar daudzveidīgu deju stilu un žanru ienākšanu Eiropas kultūrtelpā
+                                20. gs. vidū.</p>
+
+                            <img class="img-fluid rounded mx-auto d-block image-padding fade-in"
+                                 src="{{ asset('images/Vesturiskas_dejas/folk-dance.jpg') }}" alt="Tautas dejas">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

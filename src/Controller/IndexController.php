@@ -58,11 +58,21 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/deju_veidi/elektroniskas_muzikas_dejas ")
+     * @Route("/deju_veidi/elektroniskas_muzikas_dejas")
      */
     public function elektroniskas_muzikas_dejas()
     {
         return $this->render('sections/electro_music_dances.html.twig', [
+            'controller_name' => 'IndexController',
+        ]);
+    }
+
+    /**
+     * @Route("/deju_veidi/vesturiskas_dejas")
+     */
+    public function vesturiskas_dejas()
+    {
+        return $this->render('sections/historic_dances.html.twig', [
             'controller_name' => 'IndexController',
         ]);
     }
