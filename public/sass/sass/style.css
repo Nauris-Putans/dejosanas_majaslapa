@@ -524,12 +524,24 @@ body, html {
   padding-bottom: 32px;
 }
 
-.Dejas-attistiba .img-fluid, .Tradicionalas-dejas .img-fluid {
+.Dejas-attistiba .img-fluid, .Briva-stila-dejas .img-fluid {
+  max-width: 100%;
+  width: 50%;
+  height: auto;
+}
+.Dejas-attistiba .box, .Briva-stila-dejas .box {
+  background: rgba(235, 235, 235, 0.5);
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 128px 64px 64px;
+}
+
+.Tradicionalas-dejas .img-fluid {
   max-width: 100%;
   width: 50%;
   height: 12%;
 }
-.Dejas-attistiba .box, .Tradicionalas-dejas .box {
+.Tradicionalas-dejas .box {
   background: rgba(235, 235, 235, 0.5);
   border-radius: 4px;
   overflow: hidden;

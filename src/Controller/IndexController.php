@@ -36,4 +36,14 @@ class IndexController extends AbstractController
             'controller_name' => 'IndexController',
         ]);
     }
+
+    /**
+     * @Route("/deju_veidi/briva_stila_dejas")
+     */
+    public function briva_stila_dejas()
+    {
+        return $this->render('sections/freestyle_dances.html.twig', [
+            'controller_name' => 'IndexController',
+        ]);
+    }
 }
