@@ -46,4 +46,14 @@ class IndexController extends AbstractController
             'controller_name' => 'IndexController',
         ]);
     }
+
+    /**
+     * @Route("/deju_veidi/ielu_dejas")
+     */
+    public function ielu_dejas()
+    {
+        return $this->render('sections/street_dances.html.twig', [
+            'controller_name' => 'IndexController',
+        ]);
+    }
 }

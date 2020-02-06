@@ -559,12 +559,7 @@ $assetPath : "/images";
 }
 
 
-.Dejas-attistiba, .Briva-stila-dejas {
-  .img-fluid {
-    max-width: 100%;
-    width: 50%;
-    height: auto;
-  }
+.Dejas-attistiba, .Briva-stila-dejas, .Ielu-dejas {
 
   .box {
     background: rgba(235, 235, 235, 0.5);
@@ -575,11 +570,6 @@ $assetPath : "/images";
 }
 
 .Tradicionalas-dejas {
-  .img-fluid {
-    max-width: 100%;
-    width: 50%;
-    height: 12%;
-  }
 
   .box {
     background: rgba(235, 235, 235, 0.5);
