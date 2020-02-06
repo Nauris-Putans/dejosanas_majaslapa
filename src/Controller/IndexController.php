@@ -56,4 +56,15 @@ class IndexController extends AbstractController
             'controller_name' => 'IndexController',
         ]);
     }
+
+    /**
+     * @Route("/deju_veidi/elektroniskas_muzikas_dejas ")
+     */
+    public function elektroniskas_muzikas_dejas()
+    {
+        return $this->render('sections/electro_music_dances.html.twig', [
+            'controller_name' => 'IndexController',
+        ]);
+    }
+
 }
