@@ -87,4 +87,14 @@ class IndexController extends AbstractController
         ]);
     }
 
+    /**
+     * @Route("/deju_veidi/swinga_dejas")
+     */
+    public function swinga_dejas()
+    {
+        return $this->render('sections/swing_dances.html.twig', [
+            'controller_name' => 'IndexController',
+        ]);
+    }
+
 }

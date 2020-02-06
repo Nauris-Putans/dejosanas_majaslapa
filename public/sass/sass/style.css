@@ -525,7 +525,8 @@ body, html {
 }
 
 .Dejas-attistiba .box, .Tradicionalas-dejas .box, .Briva-stila-dejas .box, .Ielu-dejas .box,
-.Elektroniskas-muzikas-dejas .box, .Vesturiskas-dejas .box, .Latinamerikas-dejas .box {
+.Elektroniskas-muzikas-dejas .box, .Vesturiskas-dejas .box, .Latinamerikas-dejas .box,
+.Swinga-dejas .box {
   background: rgba(235, 235, 235, 0.5);
   border-radius: 4px;
   overflow: hidden;
