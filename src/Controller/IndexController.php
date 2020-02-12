@@ -32,7 +32,7 @@ class IndexController extends AbstractController
      */
     public function tradicionalas_dejas()
     {
-        return $this->render('sections/traditional_dances.html.twig', [
+        return $this->render('dance_types/traditional_dances.html.twig', [
             'controller_name' => 'IndexController',
         ]);
     }
@@ -42,7 +42,7 @@ class IndexController extends AbstractController
      */
     public function briva_stila_dejas()
     {
-        return $this->render('sections/freestyle_dances.html.twig', [
+        return $this->render('dance_types/freestyle_dances.html.twig', [
             'controller_name' => 'IndexController',
         ]);
     }
@@ -52,7 +52,7 @@ class IndexController extends AbstractController
      */
     public function ielu_dejas()
     {
-        return $this->render('sections/street_dances.html.twig', [
+        return $this->render('dance_types/street_dances.html.twig', [
             'controller_name' => 'IndexController',
         ]);
     }
@@ -62,7 +62,7 @@ class IndexController extends AbstractController
      */
     public function elektroniskas_muzikas_dejas()
     {
-        return $this->render('sections/electro_music_dances.html.twig', [
+        return $this->render('dance_types/electro_music_dances.html.twig', [
             'controller_name' => 'IndexController',
         ]);
     }
@@ -72,7 +72,7 @@ class IndexController extends AbstractController
      */
     public function vesturiskas_dejas()
     {
-        return $this->render('sections/historic_dances.html.twig', [
+        return $this->render('dance_types/historic_dances.html.twig', [
             'controller_name' => 'IndexController',
         ]);
     }
@@ -82,7 +82,7 @@ class IndexController extends AbstractController
      */
     public function latinamerikas_dejas()
     {
-        return $this->render('sections/latin_american_dances.html.twig', [
+        return $this->render('dance_types/latin_american_dances.html.twig', [
             'controller_name' => 'IndexController',
         ]);
     }
@@ -92,7 +92,17 @@ class IndexController extends AbstractController
      */
     public function swinga_dejas()
     {
-        return $this->render('sections/swing_dances.html.twig', [
+        return $this->render('dance_types/swing_dances.html.twig', [
+            'controller_name' => 'IndexController',
+        ]);
+    }
+
+    /**
+     * @Route("/galerija/foto")
+     */
+    public function foto()
+    {
+        return $this->render('sections/gallery/foto.html.twig', [
             'controller_name' => 'IndexController',
         ]);
     }

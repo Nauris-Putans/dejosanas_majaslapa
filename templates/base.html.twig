@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="{{ asset ('sass/sass/style.css') }}">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{ asset('libs/lightbox/css/lightbox.css') }}">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -21,8 +22,10 @@
         {% block body %}{% endblock %}          {# all text and images #}
         {{ include('inc/footer.html.twig') }}   {# footer #}
 
+        <script type="text/javascript" src="{{ asset('js/gallery_foto_buttons.js') }}"></script>
         <script type="text/javascript" src="{{ asset('js/navbar_scrollColor.js') }}"></script>
         <script type="text/javascript" src="{{ asset('/js/navbar_scrollText.js') }}"></script>
         <script type="text/javascript" src="{{ asset('/js/scroll_fade_inOut.js') }}"></script>
+        <script src="{{ asset('libs/lightbox/js/lightbox.js') }}"></script>
     </body>
 </html>

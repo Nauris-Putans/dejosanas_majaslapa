@@ -1,3 +1,5 @@
+/*---------------- Main css ------------------*/
+
 * {
   font-family: Montserrat, serif;
   box-sizing: border-box;
@@ -8,7 +10,7 @@ body, html {
   scroll-behavior: smooth;
 }
 
-/*----------------Navbar------------------*/
+/*---------------- Navbar ------------------*/
 
 .navbar-brand {
   padding-left: 30px;
@@ -170,6 +172,8 @@ body, html {
 }
 /* ------------------------------------------------------------------*/
 
+/*---------------- Sākums ------------------*/
+
 .display-center-text {
   margin-top: 20%;
   font-size: 6.5rem;
@@ -200,37 +204,18 @@ body, html {
   padding: 50px 0;
 }
 
-.gritter-section {
-  padding: 20px 50px;
-}
-
-#gritter {
-  color: blue;
-  font-size: 100px;
-}
-
-#greets ul {
-  list-style-type: none;
-}
-
-#greets li {
-  margin: 10px 0;
-}
-
-.bold {
-  font-weight: 900;
-}
-
 /*------------- Footer ---------------*/
 .footer {
   background: #296c92;
   color: white;
   padding: 5em 0;
+
+  .container {
+    text-align: center;
+  }
+
 }
 
-.footer .container {
-  text-align: center;
-}
 
 .title-footer {
   text-transform: uppercase;
@@ -254,20 +239,21 @@ body, html {
   justify-content: space-evenly;
   color: white;
   margin: .7em 0;
-}
 
-.social-links a {
-  color: white;
-}
+  a {
+    color: white;
+  }
 
-.social-links i {
-  color: white;
-}
+  i {
+    color: white;
+  }
 
-.social-links i:hover {
-  color: #06beb6;
-  transition: color .50s, background-color .50s;
-  cursor: pointer;
+  i:hover {
+    color: #06beb6;
+    transition: color .50s, background-color .50s;
+    cursor: pointer;
+  }
+
 }
 
 @media (max-width: 767px){
@@ -279,9 +265,9 @@ body, html {
   font-size: 2rem;
 }
 
-
 }
 /* ------------------------------------------------------------------*/
+
 
 $assetPath : "/images";
 
@@ -514,21 +500,11 @@ $assetPath : "/images";
     color: rgba(6, 190, 182, 0.9);
   }
 
-  /*!* Drop caps are created by emphasizing the size, color, weight, or style of the first letter in the first sentence of a paragraph. *!*/
-  /* .dropcap{*/
-  /*    float: left;*/
-  /*    font-size: 76px;*/
-  /*    line-height: 76px;*/
-  /*    margin: 0 15px 5px 0;*/
-  /*    font-family: Georgia, 'Times New Roman', serif; font-style: italic;*/
-  /*}*/
-
   .text-question {
     font-style: italic;
   }
 }
 
-/*noinspection CssOverwrittenProperties*/
 .box-color {
   text-align: center;
   font-size: 24px;
@@ -558,10 +534,11 @@ $assetPath : "/images";
   padding-bottom: 32px;
 }
 
+/*---------------- Deju veidi ------------------*/
 
 .Dejas-attistiba, .Tradicionalas-dejas, .Briva-stila-dejas, .Ielu-dejas,
     .Elektroniskas-muzikas-dejas, .Vesturiskas-dejas, .Latinamerikas-dejas,
-        .Swinga-dejas {
+        .Swinga-dejas, .galerija-foto {
 
   .box {
     background: rgba(235, 235, 235, 0.5);
@@ -581,3 +558,56 @@ $assetPath : "/images";
 .text-header-padding {
   padding-top: 32px;
 }
+
+
+/* ------------ Gallery - Foto ------------ */
+
+.gallery-title
+{
+  font-size: 40px;
+  color: #212529;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 128px;
+}
+
+.filter-button
+{
+  font-size: 18px;
+  border: 1px solid #111111;
+  border-radius: 5px;
+  text-align: center;
+  color: lightblue;
+  margin-bottom: 30px;
+}
+
+.filter-button:hover, .filter-button:active, .filter-button:focus
+{
+  color: white !important;
+  background-color: rgba(6, 190, 182, 0.9);
+}
+
+.port-image
+{
+  width: 100%;
+}
+
+.gallery_product
+{
+  margin-bottom: 30px;
+}
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.padding-gallery {
+  .row {
+    padding-bottom: 60px;
+  }
+}
+
+
+/* ------------ Gallery - Video ------------ */
