@@ -23,7 +23,7 @@ body, html {
   }
 }
 .dropdown-menu a {
-  margin: 5px;
+  margin-bottom: 5px;
   cursor: pointer;
 }
 
@@ -551,9 +551,25 @@ body, html {
 }
 
 .padding-gallery .row {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 /* ------------ Gallery - Video ------------ */
+.video .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  box-sizing: border-box;
+}
+.video .col-md-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */

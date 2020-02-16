@@ -107,4 +107,14 @@ class IndexController extends AbstractController
         ]);
     }
 
+    /**
+     * @Route("/galerija/video")
+     */
+    public function video()
+    {
+        return $this->render('sections/gallery/video.html.twig', [
+            'controller_name' => 'IndexController',
+        ]);
+    }
+
 }

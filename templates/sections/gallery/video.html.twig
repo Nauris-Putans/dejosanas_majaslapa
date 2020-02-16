@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="container padding-gallery">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="gallery-title">Video</h1><hr>
+        </div>
+
+        <!------------ Buttons ----------->
+        <div align="center">
+            <button class="btn btn-default filter-button" data-filter="viss">Viss</button>
+            <button class="btn btn-default filter-button" data-filter="elektroniskas">Elektroniskās</button>
+            <button class="btn btn-default filter-button" data-filter="vesturiskas">Vēsturiskās</button>
+            <button class="btn btn-default filter-button" data-filter="latinamerikas">Latīņamerikas</button>
+            <button class="btn btn-default filter-button" data-filter="tradicionalas">Tradicionālās</button>
+            <button class="btn btn-default filter-button" data-filter="briva_stila">Brīvā stila</button>
+            <button class="btn btn-default filter-button" data-filter="ielu">Ielu</button>
+            <button class="btn btn-default filter-button" data-filter="swinga">Swinga</button>
+        </div>
+        <br/>
+
+        <!------------ Video ----------->
+        <section class="video">
+            <div class="row">
+                <div class="col-md-6 filter elektroniskas">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=Q4FYNF02yEM" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="col-md-6 filter vesturiskas">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="col-md-6 filter latinamerikas">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="col-md-6 filter tradicionalas">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+{% endblock %}
