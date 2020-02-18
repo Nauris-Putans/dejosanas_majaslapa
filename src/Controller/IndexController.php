@@ -117,4 +117,14 @@ class IndexController extends AbstractController
         ]);
     }
 
+    /**
+     * @Route("/par_mani")
+     */
+    public function par_mani()
+    {
+        return $this->render('sections/about_me.html.twig', [
+            'controller_name' => 'IndexController',
+        ]);
+    }
+
 }

@@ -495,7 +495,7 @@ body, html {
 /*---------------- Deju veidi ------------------*/
 .Dejas-attistiba .box, .Tradicionalas-dejas .box, .Briva-stila-dejas .box, .Ielu-dejas .box,
 .Elektroniskas-muzikas-dejas .box, .Vesturiskas-dejas .box, .Latinamerikas-dejas .box,
-.Swinga-dejas .box, .galerija-foto .box {
+.Swinga-dejas .box, .galerija-foto .box, .Par-mani .box {
   background: rgba(235, 235, 235, 0.5);
   border-radius: 4px;
   overflow: hidden;
@@ -570,6 +570,16 @@ body, html {
   padding-right: 15px;
   padding-left: 15px;
   padding-bottom: 30px;
+}
+
+/* ------------ Par mani ------------ */
+.rounded-img {
+  border-radius: 50%;
+}
+
+.resize {
+  width: 500px;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

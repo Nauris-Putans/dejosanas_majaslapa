@@ -538,7 +538,7 @@ $assetPath : "/images";
 
 .Dejas-attistiba, .Tradicionalas-dejas, .Briva-stila-dejas, .Ielu-dejas,
     .Elektroniskas-muzikas-dejas, .Vesturiskas-dejas, .Latinamerikas-dejas,
-        .Swinga-dejas, .galerija-foto {
+        .Swinga-dejas, .galerija-foto, .Par-mani {
 
   .box {
     background: rgba(235, 235, 235, 0.5);
@@ -630,6 +630,17 @@ $assetPath : "/images";
     padding-left: 15px;
     padding-bottom: 30px;
   }
+}
+
+/* ------------ Par mani ------------ */
+
+.rounded-img {
+  border-radius: 50%;
+}
+
+.resize {
+  width: 500px;
+  height: auto;
 }
 
 
