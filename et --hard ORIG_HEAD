@@ -1,0 +1,119 @@
+[33mc05a89f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{0}: rebase finished: returning to refs/heads/master
+[33mc05a89f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{1}: rebase: checkout master~3
+[33mc9752b3[m HEAD@{2}: checkout: moving from c05a89f9d3cf5d798992e2892f39ba762e70d5f2 to master
+[33mc05a89f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{3}: reset: moving to c05a89f9d3cf5d798992e2892f39ba762e70d5f2
+[33m8ccf321[m HEAD@{4}: checkout: moving from master to 8ccf3217ad9de35fc2b61592b188b7039cc3c597
+[33mc9752b3[m HEAD@{5}: commit: Fixed version controler.
+[33m9f433cb[m HEAD@{6}: checkout: moving from 9f433cbbc90ab44eb6e82bf1f9483fbc5f16aafd to master
+[33m9f433cb[m HEAD@{7}: reset: moving to 9f433cbbc90ab44eb6e82bf1f9483fbc5f16aafd
+[33m8ccf321[m HEAD@{8}: reset: moving to 8ccf3217ad9de35fc2b61592b188b7039cc3c597
+[33m9f433cb[m HEAD@{9}: merge master: Fast-forward
+[33m8ccf321[m HEAD@{10}: reset: moving to 8ccf3217ad9de35fc2b61592b188b7039cc3c597
+[33meb12d5c[m HEAD@{11}: commit: Created Video section of website.
+[33m8ccf321[m HEAD@{12}: checkout: moving from master to 8ccf3217ad9de35fc2b61592b188b7039cc3c597
+[33m9f433cb[m HEAD@{13}: commit: Completed Par mani section of website.
+[33m8ccf321[m HEAD@{14}: reset: moving to HEAD~1
+[33mbd056f0[m HEAD@{15}: checkout: moving from bd056f01dd299b68fa85a6cf52a6eadf6bdd472e to master
+[33mbd056f0[m HEAD@{16}: checkout: moving from master to bd056f01dd299b68fa85a6cf52a6eadf6bdd472e
+[33mbd056f0[m HEAD@{17}: checkout: moving from 71f1ae9efd247b3946c22a66c368b46b18144ade to master
+[33m71f1ae9[m HEAD@{18}: commit: Created Video section of website.
+[33mc05a89f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{19}: reset: moving to c05a89f9d3cf5d798992e2892f39ba762e70d5f2
+[33m8ccf321[m HEAD@{20}: checkout: moving from master to 8ccf3217ad9de35fc2b61592b188b7039cc3c597
+[33mbd056f0[m HEAD@{21}: commit: Completed Par mani section of website.
+[33m8ccf321[m HEAD@{22}: reset: moving to 8ccf3217ad9de35fc2b61592b188b7039cc3c597
+[33m57ea8c4[m HEAD@{23}: reset: moving to 57ea8c4e5475181c793cc4aaef801b1849ff0982
+[33m57ea8c4[m HEAD@{24}: commit (amend): Completed Par mani section of website.
+[33me8551a3[m HEAD@{25}: commit: Created and completed Par mani section of website.
+[33m8ccf321[m HEAD@{26}: commit: Created Video section of website.
+[33mc05a89f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{27}: commit: Added Lightbox to photos and changed photos sizes.
+[33m3648c00[m HEAD@{28}: commit: Completed Gallery-Foto section of website.
+[33m3eed603[m HEAD@{29}: merge origin/master: Merge made by the 'recursive' strategy.
+[33m3b51d95[m HEAD@{30}: rebase -i (finish): returning to refs/heads/master
+[33m3b51d95[m HEAD@{31}: rebase -i (pick): Completed all Deju veidu sections.
+[33mfa435d6[m HEAD@{32}: rebase -i (pick): Completed Latinamerikas dejas section of website.
+[33m9a22f79[m HEAD@{33}: rebase -i (pick): Completed Vesturiskas dejas section of website.
+[33m1d9d7b0[m HEAD@{34}: rebase -i (pick): Completed Elektroniskas muzikas dejas section of website.
+[33m9c9dc64[m HEAD@{35}: rebase -i (pick): Completed Ielu dejas section of website.
+[33m0b1a9f9[m HEAD@{36}: rebase -i (pick): Completed Briva stila dejas section of website.
+[33m88f0f85[m HEAD@{37}: rebase -i (pick): Completed Tradicionalas dejas section of website.
+[33m878ce02[m HEAD@{38}: rebase -i (reword): Completed Vesture section of website.
+[33mc63abd5[m HEAD@{39}: rebase -i: fast-forward
+[33m2026dbc[m HEAD@{40}: rebase -i (start): checkout 2026dbca9296b49f7fd72876501ba45ba6725fbc
+[33m67a0bb2[m HEAD@{41}: rebase -i (finish): returning to refs/heads/master
+[33m67a0bb2[m HEAD@{42}: rebase -i (pick): Completed all Deju veidu sections.
+[33m1ed78bf[m HEAD@{43}: rebase -i (pick): Completed Latinamerikas dejas section of website.
+[33m333d1ae[m HEAD@{44}: rebase -i (pick): Completed Vesturiskas dejas section of website.
+[33m8745a12[m HEAD@{45}: rebase -i (pick): Completed Elektroniskas muzikas dejas section of website.
+[33me521e80[m HEAD@{46}: rebase -i (pick): Completed Ielu dejas section of website.
+[33m887a5b8[m HEAD@{47}: rebase -i (pick): Completed Briva stila dejas section of website.
+[33m40edb52[m HEAD@{48}: rebase -i (reword): Completed Tradicionalas dejas section of website.
+[33m3d98279[m HEAD@{49}: rebase -i: fast-forward
+[33mc63abd5[m HEAD@{50}: rebase -i (start): checkout c63abd5dbb66259c4db9d48a57a6a05244d4df81
+[33m235cd4c[m HEAD@{51}: rebase -i (finish): returning to refs/heads/master
+[33m235cd4c[m HEAD@{52}: rebase -i (pick): Completed all Deju veidu sections.
+[33mb005f33[m HEAD@{53}: rebase -i (pick): Completed Latinamerikas dejas section of website.
+[33m9641845[m HEAD@{54}: rebase -i (pick): Completed Vesturiskas dejas section of website.
+[33maef603d[m HEAD@{55}: rebase -i (pick): Completed Elektroniskas muzikas dejas section of website.
+[33mefe0f59[m HEAD@{56}: rebase -i (reword): Completed Ielu dejas section of website.
+[33m0d58169[m HEAD@{57}: rebase -i: fast-forward
+[33m6953b3e[m HEAD@{58}: rebase -i (start): checkout 6953b3e645058f32d89e686f8b8c0bba104ae35a
+[33md1401a8[m HEAD@{59}: rebase -i (finish): returning to refs/heads/master
+[33md1401a8[m HEAD@{60}: rebase -i (pick): Completed all Deju veidu sections.
+[33ma9dc53c[m HEAD@{61}: rebase -i (pick): Completed Latinamerikas dejas section of website.
+[33m92f5dc8[m HEAD@{62}: rebase -i (pick): Completed Vesturiskas dejas section of website.
+[33m1950bbf[m HEAD@{63}: rebase -i (reword): Completed Elektroniskas muzikas dejas section of website.
+[33m37e9b05[m HEAD@{64}: rebase -i: fast-forward
+[33m0d58169[m HEAD@{65}: rebase -i (start): checkout 0d58169261cf4629d9c6759ad0e803cc60d06cce
+[33m118af6c[m HEAD@{66}: rebase -i (finish): returning to refs/heads/master
+[33m118af6c[m HEAD@{67}: rebase -i (pick): Completed all Deju veidu sections.
+[33m933bd73[m HEAD@{68}: rebase -i (pick): Completed Latinamerikas dejas section of website.
+[33m43578a8[m HEAD@{69}: rebase -i (reword): Completed Vesturiskas dejas section of website.
+[33m94650cb[m HEAD@{70}: rebase -i: fast-forward
+[33m37e9b05[m HEAD@{71}: rebase -i (start): checkout 37e9b05c19c4b608ab40380ecd6f6f7bdbf8b46d
+[33m5820ea7[m HEAD@{72}: rebase -i (finish): returning to refs/heads/master
+[33m5820ea7[m HEAD@{73}: rebase -i (pick): Completed all Deju veidu sections.
+[33m4aaac81[m HEAD@{74}: rebase -i (reword): Completed Latinamerikas dejas section of website.
+[33me2dba75[m HEAD@{75}: rebase -i: fast-forward
+[33m94650cb[m HEAD@{76}: rebase -i (start): checkout 94650cbadc2904b7b54d65db0432709da4231fd7
+[33m36b94b9[m HEAD@{77}: commit (amend): Completed all Deju veidu sections.
+[33mccf3cbe[m HEAD@{78}: rebase -i (finish): returning to refs/heads/master
+[33mccf3cbe[m HEAD@{79}: rebase -i (pick): Compleated all Deju veidu sections.
+[33me2dba75[m HEAD@{80}: rebase -i (pick): Created Latinamerikas dejas section of website.
+[33m94650cb[m HEAD@{81}: rebase -i (pick): Created Vesturiskas dejas section of website.
+[33m37e9b05[m HEAD@{82}: rebase -i (pick): Created Elektroniskas muzikas dejas section of website.
+[33m0d58169[m HEAD@{83}: rebase -i (pick): Created Ielu dejas section of website.
+[33m6953b3e[m HEAD@{84}: rebase -i (reword): Completed Briva stila dejas section of website.
+[33m2b618ef[m HEAD@{85}: rebase -i: fast-forward
+[33m3d98279[m HEAD@{86}: rebase -i (start): checkout 3d982798b420e77d5dda81294400cb3673a42fd9
+[33mde5f5d9[m HEAD@{87}: commit (amend): Compleated all Deju veidu sections.
+[33m7156d37[m HEAD@{88}: commit: Compleated all deju veidu sections.
+[33m156204b[m HEAD@{89}: commit: Created Latinamerikas dejas section of website.
+[33m5c4e4fe[m HEAD@{90}: commit: Created Vesturiskas dejas section of website.
+[33m3044de0[m HEAD@{91}: commit: Created Elektroniskas muzikas dejas section of website.
+[33mf96838a[m HEAD@{92}: commit: Created Ielu dejas section of website.
+[33m2b618ef[m HEAD@{93}: reset: moving to 2b618ef8e09f5729a2ad88ed39a874f0005e19d7
+[33m222bc36[m HEAD@{94}: commit: Created Ielu dejas section of website.
+[33m2b618ef[m HEAD@{95}: rebase -i (finish): returning to refs/heads/master
+[33m2b618ef[m HEAD@{96}: rebase -i (pick): Created Briva stila dejas section of website.
+[33m3d98279[m HEAD@{97}: rebase -i (reword): Compleated Tradicionalas dejas section of website.
+[33mf21befe[m HEAD@{98}: rebase -i: fast-forward
+[33mc63abd5[m HEAD@{99}: rebase -i (start): checkout c63abd5dbb66259c4db9d48a57a6a05244d4df81
+[33m13c3c99[m HEAD@{100}: reset: moving to HEAD
+[33m13c3c99[m HEAD@{101}: rebase -i (finish): returning to refs/heads/master
+[33m13c3c99[m HEAD@{102}: rebase -i (pick): Created Briva stila dejas section of website.
+[33mf21befe[m HEAD@{103}: rebase -i (pick): Compleated Tradicionalas dejas section of homepage.
+[33mc63abd5[m HEAD@{104}: rebase -i (reword): Compleated Vesture section of website.
+[33m002eef4[m HEAD@{105}: rebase -i: fast-forward
+[33m2026dbc[m HEAD@{106}: rebase -i (start): checkout 2026dbca9296b49f7fd72876501ba45ba6725fbc
+[33mc0a7624[m HEAD@{107}: reset: moving to HEAD
+[33mc0a7624[m HEAD@{108}: commit (amend): Created Briva stila dejas section of website.
+[33m43cac85[m HEAD@{109}: commit: Created Briva stila dejas section of homepage.
+[33mc8e1f5c[m HEAD@{110}: commit: Compleated Tradicionalas dejas section of homepage.
+[33m002eef4[m HEAD@{111}: commit: Compleated Vesture section of homepage.
+[33m2026dbc[m HEAD@{112}: commit: Before push to github.
+[33md83b7ba[m HEAD@{113}: commit (amend): Fixed images paths so it can be accessed from any PC.
+[33md70a587[m HEAD@{114}: commit: Fixed images paths so it can be acsesse from any PC.
+[33mb7860ab[m HEAD@{115}: commit: Made my html,css,js friendly with Symfony 4.
+[33m22a75ae[m HEAD@{116}: commit: Successfully transferred Dejosanas majaslapas files to Dejosanas_majaslapa_symfony folder and added to project Symfony 4.
+[33md68e239[m HEAD@{117}: reset: moving to HEAD
+[33md68e239[m HEAD@{118}: commit (initial): init
