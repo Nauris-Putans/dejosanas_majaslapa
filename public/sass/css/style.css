@@ -460,17 +460,17 @@ body, html {
   }
 }
 /* ------------ Info text ------------ */
-.info-text {
-  /* In this case, the selector means that the style applies only to paragraphs directly following another paragraph. */
-  /*!* Drop caps are created by emphasizing the size, color, weight, or style of the first letter in the first sentence of a paragraph. *!*/
-  /* .dropcap{*/
-  /*    float: left;*/
-  /*    font-size: 76px;*/
-  /*    line-height: 76px;*/
-  /*    margin: 0 15px 5px 0;*/
-  /*    font-family: Georgia, 'Times New Roman', serif; font-style: italic;*/
-  /*}*/
-}
+/*.info-text {*/
+/*   In this case, the selector means that the style applies only to paragraphs directly following another paragraph. */
+/*  !* Drop caps are created by emphasizing the size, color, weight, or style of the first letter in the first sentence of a paragraph. *!*/
+/*   .dropcap{*/
+/*      float: left;*/
+/*      font-size: 76px;*/
+/*      line-height: 76px;*/
+/*      margin: 0 15px 5px 0;*/
+/*      font-family: Georgia, 'Times New Roman', serif; font-style: italic;*/
+/*  }*/
+/*}*/
 
 .info-text p {
   margin-bottom: 1.2rem;

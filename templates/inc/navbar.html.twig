@@ -20,12 +20,12 @@
 
             <!----------- Sākums ----------->
             <li class="nav-item">
-                <a class="nav-link" href="{{ path('app_index_index') }}">Sākums</a>
+                <a class="nav-link" href="{{ path('index') }}">Sākums</a>
             </li>
 
             <!----------- Vēsture ----------->
             <li class="nav-item">
-                <a class="nav-link" href="{{ path('app_index_vesture') }}">Vēsture</a>
+                <a class="nav-link" href="{{ path('vesture') }}">Vēsture</a>
             </li>
 
             <!----------- Deju veidi ----------->
@@ -38,13 +38,13 @@
                 <!----------- Apakš izvēlnes priekš deju veidiem ----------->
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
                     <ul class="navbar-nav">
-                        <a class="dropdown-item" href="{{ path('app_index_tradicionalas_dejas') }}">Tradicionālās dejas</a>
-                        <a class="dropdown-item" href="{{ path('app_index_briva_stila_dejas') }}">Brīvā stila</a>
-                        <a class="dropdown-item" href="{{ path('app_index_ielu_dejas') }}">Ielu dejas</a>
-                        <a class="dropdown-item" href="{{ path('app_index_elektroniskas_muzikas_dejas') }}">Elektroniskās mūzikas dejas</a>
-                        <a class="dropdown-item" href="{{ path('app_index_vesturiskas_dejas') }}">Vēsturiskās dejas</a>
-                        <a class="dropdown-item" href="{{ path('app_index_latinamerikas_dejas') }}">Latīņamerikas dejas</a>
-                        <a class="dropdown-item" href="{{ path('app_index_swinga_dejas') }}">Swinga dejas</a>
+                        <a class="dropdown-item" href="{{ path('deju_veidi/tradicionalas_dejas') }}">Tradicionālās dejas</a>
+                        <a class="dropdown-item" href="{{ path('deju_veidi/briva_stila_dejas') }}">Brīvā stila</a>
+                        <a class="dropdown-item" href="{{ path('deju_veidi/ielu_dejas') }}">Ielu dejas</a>
+                        <a class="dropdown-item" href="{{ path('deju_veidi/elektroniskas_muzikas_dejas') }}">Elektroniskās mūzikas dejas</a>
+                        <a class="dropdown-item" href="{{ path('deju_veidi/vesturiskas_dejas') }}">Vēsturiskās dejas</a>
+                        <a class="dropdown-item" href="{{ path('deju_veidi/latinamerikas_dejas') }}">Latīņamerikas dejas</a>
+                        <a class="dropdown-item" href="{{ path('deju_veidi/swinga_dejas') }}">Swinga dejas</a>
                     </ul>
                 </div>
 
@@ -59,20 +59,20 @@
                 <!----------- Apakš izvēlnes priekš galerijas ----------->
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
                     <ul class="navbar-nav">
-                        <a class="dropdown-item" href="{{ path('app_index_foto') }}">Foto</a>
-                        <a class="dropdown-item" href="{{ path('app_index_video') }}">Video</a>
+                        <a class="dropdown-item" href="{{ path('galerija/foto') }}">Foto</a>
+                        <a class="dropdown-item" href="{{ path('galerija/video') }}">Video</a>
                     </ul>
                 </div>
             </li>
 
             <!----------- Par mani ----------->
             <li class="nav-item">
-                <a class="nav-link" href="{{ path('app_index_par_mani') }}">Par mani</a>
+                <a class="nav-link" href="{{ path('par_mani') }}">Par mani</a>
             </li>
 
             <!----------- Kontakti ----------->
             <li class="nav-item">
-                <a class="nav-link" href="#">Kontakti</a>
+                <a class="nav-link" href="{{ path('kontakti') }}">Kontakti</a>
             </li>
 
         </ul>

@@ -1,4 +1,5 @@
 framework:
+    error_controller: App\Controller\ErrorController::index
     secret: '%env(APP_SECRET)%'
     #csrf_protection: true
     #http_method_override: true
@@ -14,3 +15,6 @@ framework:
     #fragments: true
     php_errors:
         log: true
+
+    translator:
+        enabled: false

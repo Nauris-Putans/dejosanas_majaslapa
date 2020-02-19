@@ -538,7 +538,7 @@ $assetPath : "/images";
 
 .Dejas-attistiba, .Tradicionalas-dejas, .Briva-stila-dejas, .Ielu-dejas,
     .Elektroniskas-muzikas-dejas, .Vesturiskas-dejas, .Latinamerikas-dejas,
-        .Swinga-dejas, .galerija-foto, .Par-mani {
+        .Swinga-dejas, .galerija-foto, .Par-mani, .Kontakti{
 
   .box {
     background: rgba(235, 235, 235, 0.5);
@@ -641,5 +641,63 @@ $assetPath : "/images";
   width: 500px;
   height: auto;
 }
+
+/* ------------ Kontakti ------------ */
+
+.Kontakti {
+  .boxed {
+    margin-top: 60px;
+    padding: 3em;
+    border: 3px solid rgba(6, 190, 182, 0.9) ;
+    background-color: rgba(6, 190, 182, 0.9);
+    border-radius: 25px;
+  }
+
+  p {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .form {
+    font-weight: bold;
+  }
+
+  span {
+    margin:0 5px 0 15px
+  }
+}
+
+/* ------------ Error404 ------------ */
+
+.error-page {
+  text-align: center;
+
+  .container {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1536px;
+  }
+
+  .error-page_heading {
+    margin-top: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .error-page_description {
+    margin: 0 0 2.5rem;
+  }
+
+  .box {
+    background: rgba(235, 235, 235, 0.5);
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 182px 64px 182px 64px;
+  }
+}
+
 
 

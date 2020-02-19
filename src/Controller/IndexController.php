@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class IndexController extends AbstractController
 {
     /**
-     * @Route("/")
+     * @Route("/", name="index")
      */
     public function index()
     {
@@ -18,7 +18,7 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/vesture")
+     * @Route("/vesture", name="vesture")
      */
     public function vesture()
     {
@@ -28,7 +28,7 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/deju_veidi/tradicionalas_dejas")
+     * @Route("/deju_veidi/tradicionalas_dejas", name="deju_veidi/tradicionalas_dejas")
      */
     public function tradicionalas_dejas()
     {
@@ -38,7 +38,7 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/deju_veidi/briva_stila_dejas")
+     * @Route("/deju_veidi/briva_stila_dejas", name="deju_veidi/briva_stila_dejas")
      */
     public function briva_stila_dejas()
     {
@@ -48,7 +48,7 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/deju_veidi/ielu_dejas")
+     * @Route("/deju_veidi/ielu_dejas", name="deju_veidi/ielu_dejas")
      */
     public function ielu_dejas()
     {
@@ -58,7 +58,7 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/deju_veidi/elektroniskas_muzikas_dejas")
+     * @Route("/deju_veidi/elektroniskas_muzikas_dejas", name="deju_veidi/elektroniskas_muzikas_dejas")
      */
     public function elektroniskas_muzikas_dejas()
     {
@@ -68,7 +68,7 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/deju_veidi/vesturiskas_dejas")
+     * @Route("/deju_veidi/vesturiskas_dejas", name="deju_veidi/vesturiskas_dejas")
      */
     public function vesturiskas_dejas()
     {
@@ -78,7 +78,7 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/deju_veidi/latinamerikas_dejas")
+     * @Route("/deju_veidi/latinamerikas_dejas", name="deju_veidi/latinamerikas_dejas")
      */
     public function latinamerikas_dejas()
     {
@@ -88,7 +88,7 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/deju_veidi/swinga_dejas")
+     * @Route("/deju_veidi/swinga_dejas", name="deju_veidi/swinga_dejas")
      */
     public function swinga_dejas()
     {
@@ -98,7 +98,7 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/galerija/foto")
+     * @Route("/galerija/foto", name="galerija/foto")
      */
     public function foto()
     {
@@ -108,7 +108,7 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/galerija/video")
+     * @Route("/galerija/video", name="galerija/video")
      */
     public function video()
     {
@@ -118,7 +118,7 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/par_mani")
+     * @Route("/par_mani", name="par_mani")
      */
     public function par_mani()
     {
