@@ -645,6 +645,7 @@ $assetPath : "/images";
 /* ------------ Kontakti ------------ */
 
 .Kontakti {
+
   .boxed {
     margin-top: 60px;
     padding: 3em;
@@ -653,7 +654,7 @@ $assetPath : "/images";
     border-radius: 25px;
   }
 
-  p {
+  h3 {
     font-weight: bold;
     color: black;
     text-align: center;
@@ -666,6 +667,68 @@ $assetPath : "/images";
   span {
     margin:0 5px 0 15px
   }
+
+  .form {
+    text-align: center;
+  }
+
+  label {
+    font-size: 20px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+
+  .form {
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid;
+      border-radius: 4px;
+    }
+
+    textarea {
+      width: 500px;
+      height: 200px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid;
+      border-radius: 4px;
+      resize: none;
+    }
+
+    @media (max-width: 767px) {
+      textarea {
+        width: 400px;
+      }
+    }
+
+    @media (max-width: 655px) {
+      textarea {
+        width: 300px;
+      }
+    }
+
+  }
+
+  @media (max-width: 420px) {
+    .box {
+      padding: 128px 0 64px 0;
+    }
+  }
+
 }
 
 /* ------------ Error404 ------------ */

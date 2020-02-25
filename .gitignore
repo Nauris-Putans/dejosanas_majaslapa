@@ -20,3 +20,6 @@
 ###< symfony/web-server-bundle ###
 
 .idea/*
+
+/public/images/Gatavs.mp4
+*.mp4

@@ -590,7 +590,7 @@ body, html {
   background-color: rgba(6, 190, 182, 0.9);
   border-radius: 25px;
 }
-.Kontakti p {
+.Kontakti h3 {
   font-weight: bold;
   color: black;
   text-align: center;
@@ -601,6 +601,55 @@ body, html {
 }
 .Kontakti span {
   margin: 0 5px 0 15px;
+}
+.Kontakti .form {
+  text-align: center;
+}
+.Kontakti label {
+  font-size: 20px;
+}
+.Kontakti input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.Kontakti .btn {
+  margin-top: 20px;
+}
+.Kontakti .form input[type=text], .Kontakti .form input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 4px;
+}
+.Kontakti .form textarea {
+  width: 500px;
+  height: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 4px;
+  resize: none;
+}
+@media (max-width: 767px) {
+  .Kontakti .form textarea {
+    width: 400px;
+  }
+}
+@media (max-width: 655px) {
+  .Kontakti .form textarea {
+    width: 300px;
+  }
+}
+@media (max-width: 420px) {
+  .Kontakti .box {
+    padding: 128px 0 64px 0;
+  }
 }
 
 /* ------------ Error404 ------------ */
