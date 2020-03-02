@@ -11,6 +11,15 @@ body, html {
 }
 
 /*---------------- Navbar ------------------*/
+.navbar li {
+  display: inline-block;
+  padding: 0 30px 0 30px;
+  /* Distance between sections */
+}
+.navbar a {
+  text-align: center;
+}
+
 .navbar-brand {
   padding-left: 30px;
   cursor: default;
@@ -22,6 +31,10 @@ body, html {
     cursor: default;
   }
 }
+.navbar-nav a {
+  text-align: center;
+}
+
 .dropdown-menu a {
   margin-bottom: 5px;
   cursor: pointer;
@@ -30,19 +43,6 @@ body, html {
 .fixed-top {
   /* Color of navbar */
   background: rgba(6, 190, 182, 0.9);
-}
-
-.navbar li {
-  display: inline-block;
-  padding: 0 30px 0 50px;
-  /* Distance between sections */
-}
-.navbar a {
-  text-align: center;
-}
-
-.navbar-nav a {
-  text-align: center;
 }
 
 @media (min-width: 1360px) {
@@ -250,6 +250,7 @@ body, html {
 @media (max-width: 767px) {
   .title-footer {
     font-size: 10px;
+    line-height: 2;
   }
 
   .social-links i {
@@ -573,22 +574,49 @@ body, html {
 }
 
 /* ------------ Par mani ------------ */
-.rounded-img {
+.Par-mani .rounded-img {
   border-radius: 50%;
 }
-
-.resize {
+.Par-mani .resize {
   width: 500px;
   height: auto;
 }
+@media (max-width: 375px) {
+  .Par-mani .box {
+    padding: 128px 32px 64px 32px;
+  }
+  .Par-mani p {
+    font-size: 20px;
+  }
+  .Par-mani p + p {
+    text-indent: 0;
+  }
+  .Par-mani .box-color {
+    padding: 30px 10px;
+  }
+}
 
 /* ------------ Kontakti ------------ */
+.alert {
+  margin-top: 100px;
+  background-color: rgba(235, 235, 235, 0.5);
+}
+
+.Kontakti .contacts-info {
+  color: grey !important;
+  cursor: default;
+  display: block;
+  text-align: center;
+}
+.Kontakti .contacts-info i {
+  padding-right: 5px;
+}
+.Kontakti .contacts-info a {
+  text-decoration: none;
+  padding-right: 30px;
+}
 .Kontakti .boxed {
-  margin-top: 60px;
   padding: 3em;
-  border: 3px solid rgba(6, 190, 182, 0.9);
-  background-color: rgba(6, 190, 182, 0.9);
-  border-radius: 25px;
 }
 .Kontakti h3 {
   font-weight: bold;
@@ -621,10 +649,14 @@ body, html {
 .Kontakti .form input[type=text], .Kontakti .form input[type=email] {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid;
-  border-radius: 4px;
+  border: 1px solid #e3e3e3;
+  border-radius: 40px;
+  margin: 8px 0 20px;
+  outline: 0 none;
+}
+.Kontakti .form label[for=contact_name], .Kontakti .form label[for=contact_email], .Kontakti .form label[for=contact_message] {
+  display: none;
 }
 .Kontakti .form textarea {
   width: 500px;
@@ -632,9 +664,10 @@ body, html {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid;
-  border-radius: 4px;
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
   resize: none;
+  outline: 0 none;
 }
 @media (max-width: 767px) {
   .Kontakti .form textarea {
@@ -676,6 +709,24 @@ body, html {
   border-radius: 4px;
   overflow: hidden;
   padding: 182px 64px 182px 64px;
+}
+
+/* ------------ Google maps ------------ */
+.map-responsive {
+  border: 3px solid rgba(6, 190, 182, 0.9);
+  border-radius: 25px;
+  margin-top: 15px;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */

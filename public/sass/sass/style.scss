@@ -12,6 +12,17 @@ body, html {
 
 /*---------------- Navbar ------------------*/
 
+.navbar {
+  li {
+    display: inline-block;
+    padding: 0 30px 0 30px; /* Distance between sections */
+  }
+
+  a {
+    text-align: center;
+  }
+}
+
 .navbar-brand {
   padding-left: 30px;
   cursor: default;
@@ -24,6 +35,11 @@ body, html {
 }
 }
 
+.navbar-nav a {
+  text-align: center;
+}
+
+
 .dropdown-menu a{
   margin-bottom: 5px;
   cursor: pointer;
@@ -33,20 +49,6 @@ body, html {
   background: rgba(6, 190, 182, 0.9);
 }
 
-.navbar {
-  li {
-    display: inline-block;
-    padding: 0 30px 0 50px; /* Distance between sections */
-  }
-
-  a {
-    text-align: center;
-  }
-}
-
-.navbar-nav a {
-  text-align: center;
-}
 
 @media (min-width: 1360px) {    /* Navigation bar brake point */
 
@@ -56,8 +58,8 @@ body, html {
 }
 
 .justify-content-center .dropdown-menu {    /* Centers the text */
-        left: 50%;
-        transform: translateX(-50%);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
@@ -259,6 +261,7 @@ body, html {
 @media (max-width: 767px){
 .title-footer {
   font-size: 10px;
+  line-height: 2;
 }
 
 .social-links i {
@@ -632,26 +635,64 @@ $assetPath : "/images";
 }
 
 /* ------------ Par mani ------------ */
+.Par-mani {
+  .rounded-img {
+    border-radius: 50%;
+  }
 
-.rounded-img {
-  border-radius: 50%;
-}
+  .resize {
+    width: 500px;
+    height: auto;
+  }
 
-.resize {
-  width: 500px;
-  height: auto;
+  @media (max-width: 375px) {
+    .box {
+      padding: 128px 32px 64px 32px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    p + p {
+      text-indent: 0;
+    }
+
+    .box-color {
+      padding: 30px 10px;
+    }
+
+  }
+
 }
 
 /* ------------ Kontakti ------------ */
 
+.alert {
+  margin-top: 100px;
+  background-color: rgba(235, 235, 235, 0.5);
+}
+
 .Kontakti {
 
+  .contacts-info {
+    color: grey !important;
+    cursor: default;
+    display: block;
+    text-align: center;
+
+    i {
+      padding-right: 5px;
+    }
+
+    a {
+      text-decoration:none;
+      padding-right: 30px;
+    }
+  }
+
   .boxed {
-    margin-top: 60px;
     padding: 3em;
-    border: 3px solid rgba(6, 190, 182, 0.9) ;
-    background-color: rgba(6, 190, 182, 0.9);
-    border-radius: 25px;
   }
 
   h3 {
@@ -692,10 +733,15 @@ $assetPath : "/images";
     input[type="text"], input[type="email"] {
       width: 100%;
       padding: 12px 20px;
-      margin: 8px 0;
       box-sizing: border-box;
-      border: 2px solid;
-      border-radius: 4px;
+      border: 1px solid rgb(227, 227, 227);
+      border-radius: 40px;
+      margin: 8px 0 20px;
+      outline: 0 none;
+    }
+
+    label[for='contact_name'], label[for='contact_email'], label[for='contact_message'] {
+      display:none;
     }
 
     textarea {
@@ -704,9 +750,10 @@ $assetPath : "/images";
       padding: 12px 20px;
       margin: 8px 0;
       box-sizing: border-box;
-      border: 2px solid;
-      border-radius: 4px;
+      border: 1px solid rgb(227, 227, 227);
+      border-radius: 20px;
       resize: none;
+      outline: 0 none;
     }
 
     @media (max-width: 767px) {
@@ -762,5 +809,24 @@ $assetPath : "/images";
   }
 }
 
+/* ------------ Google maps ------------ */
+
+.map-responsive {
+  border: 3px solid rgba(6, 190, 182, 0.9);
+  border-radius: 25px;
+  margin-top: 15px;
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+
+  iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+}
 
 

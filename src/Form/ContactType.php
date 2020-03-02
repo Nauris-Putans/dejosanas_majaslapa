@@ -29,7 +29,7 @@ class ContactType extends AbstractType
             ->add('message', TextareaType::class, array(
                 'label' => 'Ziņa',
                 'attr' => array(
-                    'placeholder' => 'Ko jus veletos uzzināt?'
+                    'placeholder' => 'Jūsu jautājums...'
                 )
             ))
         ;
