@@ -1,12 +1,12 @@
 $(window).on("load",function() {
     function fade() {
-        let animation_height = $(window).innerHeight() * 0.25;
-        let ratio = Math.round((1 / animation_height) * 10000) / 10000;
+        const animation_height = $(window).innerHeight() * 0.25;
+        const ratio = Math.round((1 / animation_height) * 10000) / 10000;
 
         $('.fade-in').each(function() {
 
-            let objectTop = $(this).offset().top;
-            let windowBottom = $(window).scrollTop() + $(window).innerHeight();
+            const objectTop = $(this).offset().top;
+            const windowBottom = $(window).scrollTop() + $(window).innerHeight();
 
             if ( objectTop < windowBottom ) {
                 if ( objectTop < windowBottom - animation_height ) {

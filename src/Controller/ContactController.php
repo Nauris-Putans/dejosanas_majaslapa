@@ -42,7 +42,7 @@ class ContactController extends AbstractController
 
             $mailer->send($message);
 
-            $this->addFlash('success', 'Veiksmigi ir aizsutīta ziņa.');
+            $this->addFlash('success', 'Veiksmīgi ir aizsutīta ziņa.');
             return $this->redirectToRoute('kontakti');
         }
 

@@ -1,10 +1,11 @@
 $(document).ready(function(){
 
-    var filterButton = $(".filter-button");
-    var filter = $(".filter");
+    const filterButton = $(".filter-button");
+    const filter = $(".filter");
 
     filterButton.click(function(){
-        var value = $(this).attr('data-filter');
+
+        const value = $(this).attr('data-filter');
 
         if(value === "viss")
         {

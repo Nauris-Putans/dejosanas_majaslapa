@@ -1,6 +1,6 @@
 // Navbar - background color change on scroll
 $(document).scroll(function(){
-    let scroll = $(document).scrollTop();
+    const scroll = $(document).scrollTop();
 
     if(scroll < 1000 ){
         $('.fixed-top').css("background", "");

@@ -598,8 +598,8 @@ body, html {
 
 /* ------------ Kontakti ------------ */
 .alert {
-  margin-top: 100px;
-  background-color: rgba(235, 235, 235, 0.5);
+  margin-top: 85px;
+  margin-bottom: 0 !important;
 }
 
 .Kontakti .contacts-info {

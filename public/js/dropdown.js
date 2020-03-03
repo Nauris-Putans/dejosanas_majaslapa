@@ -1,10 +1,11 @@
-const trigger = '.trigger';
-const list = '.list';
+const dropdown = $(".dropdown");
 
-function toggleIt() {
-    $(list).slideToggle(200, 'linear');
-}
+// ADD SLIDEDOWN ANIMATION TO DROPDOWN //
+dropdown.on('show.bs.dropdown', function (e) {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+});
 
-$(trigger).on('click', function () {
-    toggleIt();
+// ADD SLIDEUP ANIMATION TO DROPDOWN //
+dropdown.on('hide.bs.dropdown', function (e) {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
 });
