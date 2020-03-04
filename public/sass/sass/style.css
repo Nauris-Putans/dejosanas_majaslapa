@@ -20,15 +20,32 @@ body, html {
   text-align: center;
 }
 
+@media screen and (max-width: 390px) {
+  .navbar li {
+    padding: 0 !important;
+  }
+}
 .navbar-brand {
   padding-left: 30px;
   cursor: default;
+}
+.navbar-brand .logo {
+  width: 60px;
 }
 
 @media screen and (max-width: 1360px) {
   .navbar-brand {
     padding-left: 10px;
     cursor: default;
+  }
+}
+@media screen and (max-width: 305px) {
+  .navbar-brand {
+    font-size: 1rem !important;
+  }
+
+  .logo {
+    width: 50px !important;
   }
 }
 .navbar-nav a {
@@ -221,6 +238,21 @@ body, html {
 @media screen and (max-width: 772px) {
   .display-center-text {
     font-size: 4.5rem !important;
+  }
+}
+@media screen and (max-width: 525px) {
+  .img-fluid {
+    height: 300px !important;
+  }
+}
+@media screen and (max-width: 465px) {
+  .img-fluid {
+    height: 210px !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  .img-fluid {
+    height: 210px !important;
   }
 }
 .banner {
@@ -476,7 +508,7 @@ body, html {
     padding: 10rem 2rem 4rem !important;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 445px) {
   .custom-jumbotron {
     min-height: 0 !important;
   }
@@ -492,8 +524,11 @@ body, html {
 .info-text p + p {
   text-indent: 1.375em;
 }
-.info-text p + img + p {
+.info-text p + a + p {
   text-indent: 1.375em;
+}
+.info-text .inspiration-text {
+  text-indent: 0 !important;
 }
 .info-text .box {
   padding: 2em 4em 5em 4em;
@@ -527,6 +562,21 @@ body, html {
   border-color: rgba(6, 190, 182, 0.9);
 }
 
+@media screen and (max-width: 550px) {
+  .box-color {
+    font-size: 21px !important;
+  }
+}
+@media screen and (max-width: 496px) {
+  .box-color {
+    font-size: 16px !important;
+  }
+
+  .row {
+    margin-right: -50px !important;
+    margin-left: -50px !important;
+  }
+}
 .section-divider {
   width: 75%;
   border-bottom: 1px solid #9e9e9e;
@@ -777,6 +827,16 @@ body, html {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+@media screen and (max-width: 305px) {
+  .navbar-brand {
+    font-size: 1rem !important;
+  }
+
+  .logo {
+    width: 50px !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
