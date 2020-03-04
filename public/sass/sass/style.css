@@ -25,7 +25,7 @@ body, html {
   cursor: default;
 }
 
-@media (max-width: 1360px) {
+@media screen and (max-width: 1360px) {
   .navbar-brand {
     padding-left: 10px;
     cursor: default;
@@ -45,7 +45,7 @@ body, html {
   background: rgba(6, 190, 182, 0.9);
 }
 
-@media (min-width: 1360px) {
+@media screen and (min-width: 1360px) {
   /* Navigation bar brake point */
   .gfg img {
     max-width: 100%;
@@ -178,6 +178,51 @@ body, html {
   line-height: 1.2;
 }
 
+@media screen and (max-width: 1037px) {
+  .display-center-text {
+    font-size: 90px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .img-fluid {
+    height: 400px !important;
+    max-width: 200% !important;
+  }
+}
+@media screen and (max-width: 952px) {
+  .img-fluid {
+    height: 350px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .display-center-text {
+    font-size: 4.8rem !important;
+  }
+}
+@media screen and (max-width: 880px) {
+  .img-fluid {
+    height: 325px !important;
+  }
+}
+@media screen and (max-width: 815px) {
+  .img-fluid {
+    height: 300px !important;
+  }
+
+  .display-center-text {
+    font-size: 4.8rem !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .display-center-text {
+    font-size: 4.6rem !important;
+  }
+}
+@media screen and (max-width: 772px) {
+  .display-center-text {
+    font-size: 4.5rem !important;
+  }
+}
 .banner {
   background-color: #026a5d;
   color: white;
@@ -247,7 +292,7 @@ body, html {
   cursor: pointer;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .title-footer {
     font-size: 10px;
     line-height: 2;
@@ -426,9 +471,14 @@ body, html {
   border-radius: 0.3rem;
 }
 
-@media (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .custom-jumbotron {
-    padding: 10rem 2rem 4rem;
+    padding: 10rem 2rem 4rem !important;
+  }
+}
+@media screen and (max-width: 620px) {
+  .custom-jumbotron {
+    min-height: 0 !important;
   }
 }
 /* ------------ Info text ------------ */
@@ -581,7 +631,7 @@ body, html {
   width: 500px;
   height: auto;
 }
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .Par-mani .box {
     padding: 128px 32px 64px 32px;
   }
@@ -669,17 +719,17 @@ body, html {
   resize: none;
   outline: 0 none;
 }
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .Kontakti .form textarea {
     width: 400px;
   }
 }
-@media (max-width: 655px) {
+@media screen and (max-width: 655px) {
   .Kontakti .form textarea {
     width: 300px;
   }
 }
-@media (max-width: 420px) {
+@media screen and (max-width: 420px) {
   .Kontakti .box {
     padding: 128px 0 64px 0;
   }
