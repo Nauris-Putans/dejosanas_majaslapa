@@ -217,6 +217,11 @@ body, html {
     height: 400px !important;
     max-width: 200% !important;
   }
+
+  .Par-mani .img-fluid {
+    width: 500px !important;
+    height: auto !important;
+  }
 }
 
 @media screen and (max-width: 952px) {
@@ -551,7 +556,6 @@ $assetPath : "/images";
   min-height: 950px;
   margin-bottom: 0;
   background-color: #e9ecef;
-  border-radius: .3rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -572,6 +576,7 @@ $assetPath : "/images";
   p {
     margin-bottom: 1.2rem;
     color: #666;
+    text-align: justify;
   }
 
   /* In this case, the selector means that the style applies only to paragraphs directly following another paragraph. */
@@ -610,6 +615,19 @@ $assetPath : "/images";
   .text-question {
     font-style: italic;
   }
+
+  @media screen and (max-width: 550px) {
+    .box-color {
+      font-size: 21px !important;
+    }
+  }
+
+  @media screen and (max-width: 409px) {
+    .box-color {
+      font-size: 16px !important;
+    }
+  }
+
 }
 
 //noinspection CssOverwrittenProperties
@@ -639,6 +657,16 @@ $assetPath : "/images";
   .row {
     margin-right: -50px !important;
     margin-left: -50px !important;
+  }
+
+  .Kontakti .row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+  }
+
+  .gallery .row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
   }
 }
 
@@ -767,25 +795,85 @@ $assetPath : "/images";
     height: auto;
   }
 
+  @media screen and (max-width: 465px) {
+    .resize {
+      width: 220px !important;
+    }
+  }
+
+  .my-name {
+    padding-top: 10px;
+    font-size: 2.5rem;
+  }
+
+  .my-profession {
+    font-size: 1.5rem;
+  }
+
+  @media screen and (max-width: 645px) {
+    .img-fluid {
+      width: 400px !important;
+    }
+  }
+
+  @media screen and (max-width: 545px) {
+    .img-fluid {
+      width: 300px !important;
+    }
+  }
+
+  @media screen and (max-width: 377px) {
+    .img-fluid {
+      width: 200px !important;
+    }
+  }
+
   @media screen and (max-width: 375px) {
     .box {
-      padding: 128px 32px 64px 32px ;
+      padding: 128px 32px 64px 32px !important;
     }
 
     p {
-      font-size: 20px;
+      font-size: 20px !important;
     }
 
     p + p {
-      text-indent: 0;
+      text-indent: 0 !important;
     }
 
     .box-color {
-      padding: 30px 10px;
+      padding: 30px 10px !important;
+      margin-left: 10px !important;
+      margin-right: 10px !important;
     }
 
+    .my-name {
+      font-size: 1.5rem !important;
+    }
+
+    .my-profession {
+      font-size: 1rem !important;
+    }
   }
 
+  @media screen and (max-width: 320px) {
+    .image-padding {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+    }
+
+    .Par-mani {
+      .box-color {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+      }
+
+      .my-name {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+      }
+    }
+  }
 }
 
 /* ------------ Kontakti ------------ */
@@ -796,7 +884,6 @@ $assetPath : "/images";
 }
 
 .Kontakti {
-
   .contacts-info {
     color: grey !important;
     cursor: default;
@@ -805,6 +892,10 @@ $assetPath : "/images";
 
     i {
       padding-right: 5px;
+    }
+
+    i:nth-child(1) {
+      padding-left: 30px;
     }
 
     a {
@@ -878,15 +969,15 @@ $assetPath : "/images";
       outline: 0 none;
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 567px) {
       textarea {
-        width: 400px;
+        width: 400px !important;
       }
     }
 
-    @media screen and (max-width: 655px) {
+    @media screen and (max-width: 463px) {
       textarea {
-        width: 300px;
+        width: 300px !important;
       }
     }
 
@@ -894,10 +985,35 @@ $assetPath : "/images";
 
   @media screen and (max-width: 420px) {
     .box {
-      padding: 128px 0 64px 0;
+      padding: 128px 0 64px 0 !important;
     }
   }
 
+  @media screen and (max-width: 320px) {
+    input[type=submit] {
+      width: 80% !important;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1006px) {
+  .contacts-info {
+    padding-right: 3px !important;
+
+    i:nth-child(1) {
+      padding-left: 0 !important;
+    }
+
+    a {
+      padding-right: 0 !important;
+    }
+
+    a:after {
+      content: "\A" !important;
+      white-space: pre !important;
+    }
+  }
 }
 
 /* ------------ Error404 ------------ */
@@ -948,20 +1064,6 @@ $assetPath : "/images";
     height:100%;
     width:100%;
     position:absolute;
-  }
-}
-
-
-
-
-
-@media screen and (max-width: 305px) {
-  .navbar-brand {
-    font-size: 1rem !important;
-  }
-
-  .logo {
-    width: 50px !important;
   }
 }
 
