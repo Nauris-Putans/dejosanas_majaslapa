@@ -592,6 +592,11 @@ body, html {
     margin-left: -50px !important;
   }
 
+  .padding-gallery .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
   .Kontakti .row {
     margin-right: -15px !important;
     margin-left: -15px !important;
@@ -646,6 +651,11 @@ body, html {
   text-align: center;
   font-weight: 500;
   padding-top: 128px;
+}
+
+.gallery_product img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .filter-button {
