@@ -1,3 +1,25 @@
+/*---------------- Scrollbar ------------------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2982a8;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #295b81;
+}
+
 /*---------------- Main css ------------------*/
 
 * {
@@ -1076,4 +1098,3 @@ $assetPath : "/images";
     position:absolute;
   }
 }
-
